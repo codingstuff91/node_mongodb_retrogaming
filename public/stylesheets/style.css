@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.game-title{
+  font-size: 20px;
+}
+
+.game-description{
+  font-size: 16px;
+}
+
+.game_card{
+  background-color: #e1e9ec;
+  border : 2px solid black;
+  padding : 10px 20px;
+  width: 100px;
+  height: 200px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+.game_card p{
+  text-align: center;
+}
+
+.game_card a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn{
+  border-radius: 5px;
+  padding: 10px;
+  background-color: blue;
+}
+
+img{
+  height: 100px;
+  width: auto;
+}

@@ -1,0 +1,8 @@
+<h1>Liste des jeux de la console {{ game_console }}</h1>
+
+  {{#each games}}
+    <div class="game_card">
+      <p class="game-title">{{ this.title }}</p>
+      <p class="game-description">{{ this.year }}</p>
+    </div>
+  {{/each}}

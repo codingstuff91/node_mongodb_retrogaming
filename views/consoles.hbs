@@ -1,0 +1,11 @@
+<h1 class="text-4xl font-bold text-center mb-8">Liste des consoles</h1>
+
+<div class="flex">
+	{{#each consoles}}
+		<div class="rounded-3xl h-30 w-1/5 flex flex-col items-center mx-4 shadow-xl" style="background-color: #fff;">
+			<img src="images/{{ this.image }}" alt="" class="w-auto h-40">
+			<p class="text-2xl font-semi-bold">{{ this.name }}</p>
+			<a href="/games/{{ this.name }}" class="w-1/3 bg-blue-200 my-4 p-2 rounded-md text-center">Consulter</a>
+		</div>
+	{{/each}}
+</div>
